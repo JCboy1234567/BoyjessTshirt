@@ -205,7 +205,7 @@
 .logos img{
     width: 35px;
     margin-top: 20%;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 .logos img:hover{
     box-shadow: 0px 5px 10px orange;
@@ -233,6 +233,7 @@
 }
 .explore a:hover{
     text-shadow: 0px 5px 10px orange;
+    transition: 0.3s;
 }
 .mens-letter h1{
     padding-top: 8%;
@@ -586,7 +587,7 @@
         gap: 3%;
     }
     .about-image img{
-        width: 90%;
+        width: 70%;
         margin-top: 2%;
         border-radius: 10%;
         box-shadow: 0px 5px 10px black;
@@ -604,6 +605,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+    .developer-image img{
+        width: 75%;
     }
     .developer-letter{
         width: 100%;
